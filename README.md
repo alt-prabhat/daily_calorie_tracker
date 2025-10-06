@@ -1,4 +1,4 @@
-# <p align="center">My First Portfolio Project</p>
+# <p align="center">Daily Calorie Tracker CLI</p>
 
 Simple command‑line tool to log meals, calculate total and average calories, compare against a user daily limit, and optionally save a session report. Built as an individual mini project for the course: Programming for Problem Solving using Python.
 

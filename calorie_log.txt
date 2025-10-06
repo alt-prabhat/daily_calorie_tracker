@@ -1,0 +1,13 @@
+CALORIE TRACKER LOG - 2025-10-06 19:36:54.744298
+Daily Calorie Limit: 2000.0
+
+Meal Name 			 Calories 
+Vada Pav: 			 700.0 cal 
+
+Sandwich: 			 600.0 cal 
+
+Rasmalai: 			 800.0 cal 
+
+Total calories: 2100.0
+Average calories: 700.0
+WARNING: Daily calorie limit exceeded!

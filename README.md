@@ -98,9 +98,7 @@ Do you want to save this report? (Y/N): y
 Saved to calorie_log.txt.
 ```
 
----
-
-## 7. Generated Log Format (calorie_log.txt)
+### Log Output for Example 1:
 ```
 CALORIE TRACKER LOG - 2025-10-06 19:36:54.744298
 Daily Calorie Limit: 2000.0
@@ -119,13 +117,104 @@ WARNING: Daily calorie limit exceeded!
 
 ---
 
-## 8. References
+## 7. Sample Run (Example 2)
+```
+--- Daily Calorie Tracker CLI by Prabhat Bhatia ---
+
+=> Enter your meals and their calorie values.
+
+Enter your daily calorie limit: 1800
+How many meals do you want to enter:4
+
+Meal 1:
+Meal name: Oatmeal
+Calories for Oatmeal: 250
+
+Meal 2:
+Meal name: Grilled Chicken
+Calories for Grilled Chicken: 450
+
+Meal 3:
+Meal name: Apple
+Calories for Apple: 95
+
+Meal 4:
+Meal name: Rice Bowl
+Calories for Rice Bowl: 550
+
+Meal Name 			           Calories:
+--------------------------------------------------
+Oatmeal 			             250.0 cal
+Grilled Chicken 			     450.0 cal
+Apple 			               95.0 cal
+Rice Bowl 			           550.0 cal
+
+Total calories: 1345.0
+Average calories: 336.25
+SAFE: Within daily calorie limit.
+
+Do you want to save this report? (Y/N): n
+
+Report not saved.
+```
+
+---
+
+## 8. Sample Run (Example 3)
+```
+--- Daily Calorie Tracker CLI by Prabhat Bhatia ---
+
+=> Enter your meals and their calorie values.
+
+Enter your daily calorie limit: 1500
+How many meals do you want to enter:2
+
+Meal 1:
+Meal name: Pizza
+Calories for Pizza: 850
+
+Meal 2:
+Meal name: Ice Cream
+Calories for Ice Cream: 300
+
+Meal Name 			           Calories:
+--------------------------------------------------
+Pizza 			               850.0 cal
+Ice Cream 			           300.0 cal
+
+Total calories: 1150.0
+Average calories: 575.0
+SAFE: Within daily calorie limit.
+
+Do you want to save this report? (Y/N): y
+
+Saved to calorie_log.txt.
+```
+
+### Log Output for Example 3:
+```
+CALORIE TRACKER LOG - 2025-10-06 20:15:32.891045
+Daily Calorie Limit: 1500.0
+
+Meal Name 			 Calories 
+Pizza: 			     850.0 cal 
+
+Ice Cream: 			 300.0 cal 
+
+Total calories: 1150.0
+Average calories: 575.0
+SAFE: Within daily calorie limit.
+```
+
+---
+
+## 9. References
 - Python Docs: https://docs.python.org/3/
 - datetime module (standard library)
 
 ---
 
-## 9. Details
+## 10. Details
 - Prabhat Bhatia
 - 2501410006
 - B.Tech CSE Cyber Security(First Semester)
